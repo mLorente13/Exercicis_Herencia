@@ -23,6 +23,17 @@ public class Square extends Rectangle{
         setLength(side);
     }
 
+    @Override
+    void setWidth(double side) {
+        super.setWidth(side);
+    }
+
+    @Override
+    void setLength(double side) {
+        super.setLength(side);
+    }
+
+    @Override
     public String toString() {
         return "Square with side=" + getSide() + ", which is a subclass of " + super.toString();
     }
