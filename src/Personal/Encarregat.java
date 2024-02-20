@@ -3,7 +3,7 @@ package Personal;
 public class Encarregat extends Empleat {
     public Encarregat() {
         this.nom = "Pep";
-        this.carrec = "Caixer";
+        this.carrec = "Encarregat";
         this.sou = sou * 1.1;
     }
     
