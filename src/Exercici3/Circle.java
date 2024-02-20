@@ -37,7 +37,7 @@ public class Circle extends Shape {
         return "A Circle with radius=" + this.radius + ", which is a subclass of " + super.toString();
     }
     public static void main(String[] args) {
-        Circle c = new Circle(2.0, "blue", true);
+        Circle c = new Circle(5.0, "blue", true);
         System.out.println(c.getRadius());
         System.out.println(c.getArea());
         System.out.println(c.getPerimeter());
