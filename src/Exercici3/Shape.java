@@ -1,12 +1,12 @@
 package Exercici3;
 
 public class Shape {
-    private String color;
-    private boolean filled;
+    private String color = "red";
+    private boolean filled = true;
 
     public Shape() {
-        this.color = "red";
-        this.filled = true;
+        this.color = color;
+        this.filled = filled;
     }
 
     public Shape(String color, boolean filled) {

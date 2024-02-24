@@ -1,10 +1,10 @@
 package Exercici3;
 
 public class Circle extends Shape {
-    private double radius;
+    private double radius = 1.0;
 
     public Circle() {
-        this.radius = 1.0;
+        this.radius = radius;
     }
 
     public Circle(double radius) {

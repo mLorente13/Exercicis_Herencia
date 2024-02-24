@@ -1,10 +1,11 @@
 package Exercici2;
 public class Cylinder extends Circle {
-    private double height;
+    private double height = 1.0;
 
     public Cylinder() {
         super();
-        this.height = 1.0;
+        this.height = height;
+        System.out.println(this.height);
     }
 
     public Cylinder(double radius) {
@@ -15,8 +16,8 @@ public class Cylinder extends Circle {
         super(radius);
         this.height = height;
     }
-
-    double getArea() {
+    @Override
+    public double getArea() {
         return 2 * Math.PI * getRadius() * height + 2 * super.getArea();
     }
 

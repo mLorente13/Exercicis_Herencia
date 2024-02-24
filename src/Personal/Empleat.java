@@ -2,14 +2,14 @@ package Personal;
 
 public class Empleat {
 
-    protected double sou;
-    protected String nom;
-    protected String carrec;
+    protected double sou = 1200;
+    protected String nom = "Pep";
+    protected String carrec = "Caixer";
 
     public Empleat() {
-        this.sou = 1000;
-        this.nom = "Pep";
-        this.carrec = "Caixer";
+        this.sou = sou;
+        this.nom = nom;
+        this.carrec = carrec;
     }
 
     public Empleat(double sou) {
@@ -26,7 +26,7 @@ public class Empleat {
         return this.sou;
     }
     public static void main(String[] args) {
-        Empleat e = new Empleat(1000);
+        Empleat e = new Empleat(1400);
         System.out.println(e.getSou());
     }
 }

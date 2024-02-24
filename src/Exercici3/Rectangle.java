@@ -2,12 +2,12 @@ package Exercici3;
 
 public class Rectangle extends Shape{
 
-    private double width;
-    private double length;
+    private double width = 1.0;
+    private double length = 1.0;
 
     public Rectangle() {
-        this.width = 1.0;
-        this.length = 1.0;
+        this.width = width;
+        this.length = length;
     }
 
     public Rectangle(double width, double length) {

@@ -1,11 +1,11 @@
 package Exercici2;
 public class Circle {
-    private double radius;
-    private String color;
+    private double radius = 1.0;
+    private String color = "red";
 
     public Circle() {
-        this.radius = 1.0;
-        this.color = "red";
+        this.radius = radius;
+        this.color = color;
     }
 
     public Circle(double radius) {
